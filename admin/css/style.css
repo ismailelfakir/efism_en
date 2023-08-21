@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #4A4A4A;
+}
+.loginAll{
+	width: 600px;
+	margin: 90px auto;
+	background: #4A4A4A ;
+	border:none;
+	padding: 10px;
+	border-radius:4px;
+
+}
+input[type=text]{
+	border-radius: 6px;
+	padding: 7px;
+	width: 560px;
+	border:1px solid #4A4A4A;
+	font-family: tahoma;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+input[type=password]{
+	border-radius: 6px;
+	padding: 7px;
+	width: 560px;
+	border:1px solid #4A4A4A;
+	font-family: tahoma;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+input[type=file]{
+	border-radius: 6px;
+	padding: 7px;
+	width: 560px;
+	border:1px solid #4A4A4A;
+	font-family: tahoma;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+input[type=submit]{
+	border-radius: 6px;
+	padding: 7px;
+	width: 250px;
+	border:NONE;
+	font-family: tahoma;
+	font-size: 12px;
+	background: #1F1F1F;
+	color: #fff;
+	margin: 0px 150px;
+	cursor: pointer;
+	font-weight:bold;
+}
+.ok{
+	background: #45B965;
+	padding: 15px;
+	text-align: center;
+	font-family: tahoma;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #186625 ;
+}
+
+.all{
+	width: 600px;
+	margin: 50px auto;
+}
+.adminMenu ul{
+	list-style: none;
+	overflow: hidden;
+	width:max-content;
+}
+.adminMenu ul li{
+	border-radius:6px;
+	float: right;
+	padding: 12px;
+	text-decoration: none;
+	font-family: tahoma;
+	background: #1F1F1F;
+    font-size:12px;
+    margin-left: 10px;
+	}
+.adminMenu ul li a{
+	font-weight:bold;
+	text-decoration: none;
+	font-family: tahoma;
+    font-size: 16px;
+    color: #fff;
+
+}
+.adminBody{
+	background: rgba(255 255 255 /0.8);
+	font-size: 13px;
+	padding: 10px;
+	font-family: tahoma;
+	color: #555;
+	border: none;
+	border-radius:4px;
+}
+label{
+	text-align:left;
+	font-family: tahoma;
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.table-info-clients{
+    color:#fff;
+	width:100%;
+}
+.table-info-clients tr td{
+	
+	border:1px solid rgba(255 255 255 /0.4);
+	color:#ededed;
+}
+.table-info-clients tr th{
+	
+	border:1px solid #fff;
+	color:#ededed;
+}
